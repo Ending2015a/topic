@@ -35,7 +35,7 @@ class Worker(th.Thread):
                 while self.paused:
                     self.pause_cond.wait()
 
-            func, args, kargs = self.tasks.get()
+            _, func, args, kargs = self.tasks.get()
             try:
                 func(*args, **kargs)
             except Exception as e:

@@ -1,17 +1,47 @@
-from junk.socket.clientSock import clientSock
-from junk.log.LogWriter import LogWriter
+from ..socket.clientSock import clientSock
+from ..log.LogWriter import LogWriter
 
-'''
-devices list = [
-    ['name1', 'ip', port],
-    ['name2', 'ip', port],
-    ...
-]
-'''
+"""
+class deviceManager
+
+"""
 
 class deviceManager(object):
+
+
+    ###
+    #   class Device
+    #   just a container to store device info
+    #
+    class Device(object):
+        arg_list=['name', 'ip', 'port', 'sock', 'conn', 'state']
+
+        def __init__(self, **kargs):
+            [setattr(self, k, None) for k in self.arg_list]
+            self.setAttr(**kargs)
+
+        def setAttr(self, **kargs):
+            [setattr(self, k, v) for k, v, in kargs.items()]
+
+
+    ###
+    #    __init__
+    #
+    #   devices_list: the list of the devices want to connect
+    #   log: log file path
+    #   name: the ID in log file
+    #
+    #   the format of devices_list is like:
+    #   devices_list = [
+    #       ['name1', 'ip', port],
+    #       ['name2', 'ip', port],
+    #       ...
+    #   ]
+    #
+    #   return: None
+    #
     def __init__(self, devices_list=[], log=None, name='deviceManager'):
-        self.device={}
+        self.devices={}
         self.log = LogWriter(log, printout=True, name=name)
         self.name = name
 
@@ -19,44 +49,207 @@ class deviceManager(object):
         self.addDevices(devices_list)
 
 
+    ###
+    #    addDevices
+    #
+    #   devices_list: same as __init__
+    #
+    #   return: None
+    #
     def addDevices(self, devices_list=[]):
-        for device in devices_list:
-            form = self.__format(device[1], device[2])
-            self.device[form] = {'name':device[0], 'ip':device[1], 'port':device[2],
-                                    'sock': None, 'state':False}
+        for entry in devices_list:
+            if entry[0] in self.devices:
+                self.log.Error('the device \'{0}\' has already existed'.format(entry[0]))
+                continue
+            device = deviceManager.Device(name=entry[0], ip=entry[1], port=entry[2],
+                                        sock=None, conn=False, state=False)
+            
+            self.devices[device.name] = device
 
-    # create socket to connect with devices which is disconnected
+    ###
+    #   waitForConnections
+    #
+    #   create socket to connect to all the devices which are disconnected
+    #   every_time_out: connection timeout of every devices (sec)
+    #
+    #   return: the number of devices connected successfully
+    #
     def waitForConnections(self, every_time_out=5):
-        for form in self.devices:
-            device = self.devices[form]
+        number = 0
+        for name, device in self.devices.items():
+
             # try to connect
-            if device['state'] == False:
-                sock = self.__wait_for_connections(device, every_time_out, log = self.log.path())
-                device['sock'] = sock
-                if sock != None:
-                    device['state'] = True
+            if device.conn == False:
+                device.sock = self.__wait_for_connections(device, every_time_out, log = self.log.path())
+                if device.sock != None:
+                    device.conn = True
+                    number += 1
                 else:
-                    device['state'] = False
-                
+                    device.conn = False
+
+        return number
 
 
+    ###
+    #   deviceRecovery
+    #
+    #   reconnect to the device
+    #   device: device to reconnect, type can be either str(device name) or deviceManager.Device
+    #   time_out: connection timeout
+    #
+    #   return: True if connected, else False
+    #
+    def deviceRecovery(self, device, time_out=5):
+
+        if type(device) == str:
+            device = self.__get_device_by_name(device)
+            if device == None:
+                return False
+
+        device.sock = self.__wait_for_connections(self, device, time_out, self.log.path())
+        
+        if device.sock != None:
+            device.conn = True
+        else:
+            device.conn = False
+
+        return device.conn
+
+
+
+    ###
+    #   sendMsgToIdleDeviceAndWaitForReply
+    #
+    #   send message to the device which its state is idle, 
+    #       and then wait for reply (block)
+    #
+    #   msg: message in bytearray
+    #
+    #   return: device reply in bytearray
+    #
+    def sendMsgToIdleDeviceAndWaitForReply(self, msg, block=True):
+        device = None
+
+        while device == None:
+            device = self.__get_idle_device()
+
+            if not block:
+                break
+
+
+        device.state = True
+        try:
+            device.sock.send(msg)
+            reply = device.sock.recv()
+            device.state = False
+            return reply
+        except (OSError, IOError):
+            device.sock.close()
+            device.conn = False
+            device.state = False
+            self.log.Error('device {0} lost connection'.format(self.__device_format(device)))
+        return None
+
+
+    ###
+    #   sendMsgToDevice
+    #
+    #   just send message to the device
+    #
+    #   device: type can be either str(name) or deviceManager.Device
+    #   msg: message
+    #
+    #   return: None, but if failed, return False
+    #
+    def sendMsgToDevice(self, device, msg):
+        if type(device) == str:
+            device = self.__get_device_by_name(device)
+            if device == None:
+                return False
+        
+        if device.conn == True:
+            try:
+                device.sock.send(msg)
+            except (OSError, IOError):
+                device.conn = False
+                device.state = False
+                self.log.Error('device {0} lost connection'.format(self.__device_format(device)))
+
+
+    def closeDevice(self, device, block=True):
+        if type(device) == str:
+            device = self.__get_device_by_name(device)
+            if device == None:
+                return False
+
+        if device.conn == True:
+            if block:
+                while device.state:
+                    pass
+            try:
+                device.conn = False
+                device.state = False
+                device.sock.close()
+            except (OSError, IOError):
+                self.log.Error('device {0} lost connection'.format(self.__device_format(device)))
+
+        
+    ###
+    #   __wait_for_connections  (private)
+    #
+    #   create connection to the device with block
+    #   device: deviceManager.Device
+    #   time_out: connection timeout
+    #   log: socket log
+    #
+    #   return: clientSock if succeed to connect, else None
+    #
     def __wait_for_connections(self, device, time_out, log):
-        name = device[0]
-        ip = device[1]
-        port = device[2]
-        sock = clientSock(log=log, name=name)
-        if not sock.connect(ip=ip, port=port, time_out=time_out):
-            self.log.Error('cannot connect to device \'{0}\', {1}:{2}'.format(name, ip, port))
+        sock = clientSock(log=log, name=device.name)
+        self.log.Log('connecting to deivce {0}'.format(self.__device_format(device)))
+        if not sock.connect(ip=device.ip, port=device.port, time_out=time_out):
+            self.log.Error('cannot connect to device {0}'.format(self.__device_format(device)))
             return None
-        
+        self.log.Log('connection established to device {0}'.format(self.__device_format(device)))
         return sock
-        
 
-    def __connection_recovery(self):
-        pass
+    ###
+    #   __get_idle_device  (private)
+    #
+    #   get device which state is idle
+    #
+    #   return: deviceManager.Device
+    #  
+    def __get_idle_device(self):
+        for name, device in self.devices.items():
+            if device.conn == True and device.state == False:
+                return device
 
-    def __remove_bad_connections(self):
-        pass
+        return None
 
-    def __format(self, ip, port):
-        return '{0}:{1}'.format(ip , port)
+    ### 
+    #   __get_device_by_name  (private)
+    #
+    #   get device by device name, if failed then log error msg
+    #   name: device name
+    #
+    #   return: deviceManager.Device
+    #
+    def __get_device_by_name(self, name):
+        try:
+            return self.devices[name]
+        except KeyError as e:
+            self.log.Error('cannot find device \'{0}\' in deviceManager'.format(name))
+            return None
+
+
+    ###
+    #   __device_format  (private)
+    #
+    #   get device info 'name' (ip:port)
+    #   device: deviceManager.Device
+    #
+    #   return: str, device info
+    #
+    def __device_format(self, device):
+        return '\'{0}\' ({1}:{2})'.format(device.name, device.ip, device.port)

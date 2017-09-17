@@ -25,7 +25,7 @@ class serverSock(object):
             self.created = True
             self.log.Log('server created successfully!! port:{0}, capacity:{1}'.format(port, capacity))
         except socket.error as e:
-            self._log_socket_error('in serverSock.create', e)
+            self._log_error('in serverSock.create', type(e).__name__, e)
             return False
         return True
     
@@ -37,7 +37,7 @@ class serverSock(object):
             self.client.send(msg)
             self.log.Log('send {0} bytes to client: {1}'.format(btn, self.client.getAddrFormat()))
         except socket.error as e:
-            self._log_socket_error('in serverSock.send', e)
+            self._log_error('in serverSock.send', type(e).__name__, e)
             return False
         except TypeError:
             self.log.Error('no client connected')
@@ -52,7 +52,7 @@ class serverSock(object):
             data = self.client.recv(bt)
             self.log.Log('recv {0} bytes from client: {1}'.format(bt, self.client.getAddrFormat()))
         except socket.error as e:
-            self._log_socket_error('in serverSock.recv', e)
+            self._log_error('in serverSock.recv', type(e).__name__, e)
             return None
         except TypeError:
             self.log.Error('no client connected')
@@ -84,9 +84,9 @@ class serverSock(object):
         self.log.close()
         self.created = False
         
-    def _log_socket_error(self, msg, e):
+    def _log_error(self, msg, etype, e):
         self.log.Error(msg)
-        self.log.Error('[errno {0}] socket error: {1}'.format(e.errno, e.strerror))
+        self.log.Error('[errno {0}] {1}: {2}'.format(e.errno, etype, e.strerror))
 
     def __del__(self):
         self.close()
@@ -97,7 +97,7 @@ class Connection(object):
     def __init__(self, conn, addr):
         self.conn = conn
         self.ip, self.port = addr
-        self.conn.settimeout(5)
+        self.conn.settimeout(None)
         self.state = True
 
     def send(self, msg):

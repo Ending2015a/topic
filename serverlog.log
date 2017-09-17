@@ -1,0 +1,372 @@
+2017-09-17 12:39:16.532479 ::INFO:: [S1] Server Closed
+2017-09-17 12:39:56.055481 ::INFO:: [S1] server created successfully!! port:8888, capacity:1
+2017-09-17 12:39:56.057805 ::INFO:: [S1] Server Closed
+2017-09-17 12:41:31.390761 ::INFO:: [S1] server created successfully!! port:8888, capacity:1
+2017-09-17 12:41:32.560883 ::INFO:: [S2] server created successfully!! port:8889, capacity:1
+2017-09-17 12:41:33.480744 ::INFO:: [S3] server created successfully!! port:8890, capacity:1
+2017-09-17 12:44:36.619451 ::INFO:: [S1] client: 139.162.81.62:33930 connected!
+2017-09-17 12:44:36.622507 ::INFO:: [S1] Server Closed
+2017-09-17 12:45:17.326263 ::INFO:: [S2] client: 127.0.0.1:41728 connected!
+2017-09-17 12:45:17.326672 ::INFO:: [S3] client: 127.0.0.1:57102 connected!
+2017-09-17 12:45:17.329772 ::INFO:: [S2] Server Closed
+2017-09-17 12:45:17.329838 ::INFO:: [S3] Server Closed
+2017-09-17 12:46:00.639769 ::INFO:: [S1] server created successfully!! port:8888, capacity:1
+2017-09-17 12:46:03.772978 ::INFO:: [S1] client: 127.0.0.1:37808 connected!
+2017-09-17 12:46:03.775783 ::INFO:: [S1] Server Closed
+2017-09-17 12:52:45.047497 ::INFO:: [S1] server created successfully!! port:8888, capacity:1
+2017-09-17 12:52:59.973823 ::INFO:: [S1] client: 127.0.0.1:37832 connected!
+2017-09-17 12:52:59.976470 ::INFO:: [S1] Server Closed
+2017-09-17 12:53:44.802292 ::ERROR:: [S1] in serverSock.create
+2017-09-17 12:53:44.802398 ::ERROR:: [S1] [errno 98] socket error: Address already in use
+2017-09-17 12:53:44.895091 ::INFO:: [S1] Server Closed
+2017-09-17 12:53:51.136484 ::ERROR:: [S1] in serverSock.create
+2017-09-17 12:53:51.136584 ::ERROR:: [S1] [errno 98] socket error: Address already in use
+2017-09-17 12:53:51.219558 ::INFO:: [S1] Server Closed
+2017-09-17 12:54:08.568421 ::INFO:: [S2] server created successfully!! port:8889, capacity:1
+2017-09-17 12:54:11.880679 ::INFO:: [S2] Server Closed
+2017-09-17 12:54:39.798120 ::INFO:: [S1] server created successfully!! port:8888, capacity:1
+2017-09-17 12:54:43.028132 ::INFO:: [S2] server created successfully!! port:8889, capacity:1
+2017-09-17 12:54:44.610682 ::INFO:: [S3] server created successfully!! port:8890, capacity:1
+2017-09-17 12:54:48.820867 ::INFO:: [S2] client: 127.0.0.1:41770 connected!
+2017-09-17 12:54:48.821008 ::INFO:: [S2] Server Closed
+2017-09-17 12:54:48.821115 ::INFO:: [S3] client: 127.0.0.1:57142 connected!
+2017-09-17 12:54:48.821274 ::INFO:: [S3] Server Closed
+2017-09-17 12:54:48.821377 ::INFO:: [S1] client: 127.0.0.1:37844 connected!
+2017-09-17 12:54:48.821531 ::INFO:: [S1] Server Closed
+2017-09-17 12:54:48.824392 ::INFO:: [S3] Server Closed
+2017-09-17 12:54:48.824763 ::INFO:: [S1] Server Closed
+2017-09-17 12:54:48.825113 ::INFO:: [S2] Server Closed
+2017-09-17 16:05:38.856582 ::INFO:: [joe1] server created successfully!! port:8888, capacity:1
+2017-09-17 16:05:40.159230 ::INFO:: [joe2] server created successfully!! port:8889, capacity:1
+2017-09-17 16:05:40.960410 ::INFO:: [joe3] server created successfully!! port:8890, capacity:1
+2017-09-17 16:06:32.460102 ::INFO:: [joe1] client: 127.0.0.1:39118 connected!
+2017-09-17 16:06:32.460263 ::INFO:: [joe3] client: 127.0.0.1:58420 connected!
+2017-09-17 16:06:32.460365 ::INFO:: [joe2] client: 127.0.0.1:43052 connected!
+2017-09-17 16:06:34.670239 ::INFO:: [joe1] Server Closed
+2017-09-17 16:06:34.672198 ::INFO:: [joe3] Server Closed
+2017-09-17 16:06:34.685138 ::INFO:: [joe2] Server Closed
+2017-09-17 16:07:29.127752 ::INFO:: [joe1] server created successfully!! port:8888, capacity:1
+2017-09-17 16:07:29.783105 ::INFO:: [joe2] server created successfully!! port:8889, capacity:1
+2017-09-17 16:07:30.293404 ::INFO:: [joe3] server created successfully!! port:8890, capacity:1
+2017-09-17 16:07:31.325101 ::INFO:: [joe3] client: 127.0.0.1:58426 connected!
+2017-09-17 16:07:31.325277 ::INFO:: [joe2] client: 127.0.0.1:43058 connected!
+2017-09-17 16:07:31.325455 ::INFO:: [joe1] client: 127.0.0.1:39130 connected!
+2017-09-17 16:07:33.531967 ::INFO:: [joe2] Server Closed
+2017-09-17 16:07:33.532214 ::INFO:: [joe1] Server Closed
+2017-09-17 16:07:33.549451 ::INFO:: [joe3] Server Closed
+2017-09-17 16:07:59.209939 ::INFO:: [joe1] server created successfully!! port:8888, capacity:1
+2017-09-17 16:07:59.781561 ::INFO:: [joe2] server created successfully!! port:8889, capacity:1
+2017-09-17 16:08:00.222040 ::INFO:: [joe3] server created successfully!! port:8890, capacity:1
+2017-09-17 16:08:01.236216 ::INFO:: [joe2] client: 127.0.0.1:43066 connected!
+2017-09-17 16:08:01.236438 ::INFO:: [joe1] client: 127.0.0.1:39138 connected!
+2017-09-17 16:08:01.236673 ::INFO:: [joe3] client: 127.0.0.1:58440 connected!
+2017-09-17 16:08:03.238859 ::INFO:: [joe2] recv 7 bytes from client: 127.0.0.1:43066
+2017-09-17 16:08:03.351573 ::INFO:: [joe2] Server Closed
+2017-09-17 16:08:03.523917 ::INFO:: [joe3] Server Closed
+2017-09-17 16:08:03.549669 ::INFO:: [joe1] Server Closed
+2017-09-17 16:11:26.849879 ::INFO:: [joe1] server created successfully!! port:8888, capacity:1
+2017-09-17 16:11:27.596035 ::INFO:: [joe2] server created successfully!! port:8889, capacity:1
+2017-09-17 16:11:28.684207 ::INFO:: [joe3] server created successfully!! port:8890, capacity:1
+2017-09-17 16:11:33.359200 ::INFO:: [joe2] client: 127.0.0.1:43088 connected!
+2017-09-17 16:11:33.359419 ::INFO:: [joe3] client: 127.0.0.1:58460 connected!
+2017-09-17 16:11:33.359546 ::INFO:: [joe1] client: 127.0.0.1:39162 connected!
+2017-09-17 16:11:35.360757 ::INFO:: [joe2] recv 7 bytes from client: 127.0.0.1:43088
+2017-09-17 16:11:35.464450 ::INFO:: [joe2] Server Closed
+2017-09-17 16:11:35.626281 ::INFO:: [joe1] Server Closed
+2017-09-17 16:11:35.673368 ::INFO:: [joe3] Server Closed
+2017-09-17 16:14:04.833759 ::INFO:: [joe1] server created successfully!! port:8888, capacity:1
+2017-09-17 16:14:05.493100 ::INFO:: [joe2] server created successfully!! port:8889, capacity:1
+2017-09-17 16:14:06.107312 ::INFO:: [joe3] server created successfully!! port:8890, capacity:1
+2017-09-17 16:14:25.878203 ::INFO:: [joe1] client: 127.0.0.1:39178 connected!
+2017-09-17 16:14:25.878475 ::INFO:: [joe3] client: 127.0.0.1:58480 connected!
+2017-09-17 16:14:25.878652 ::INFO:: [joe2] client: 127.0.0.1:43112 connected!
+2017-09-17 16:14:27.879474 ::INFO:: [joe1] recv 7 bytes from client: 127.0.0.1:39178
+2017-09-17 16:14:27.994173 ::INFO:: [joe1] Server Closed
+2017-09-17 16:14:28.149610 ::INFO:: [joe2] Server Closed
+2017-09-17 16:14:28.150008 ::INFO:: [joe3] Server Closed
+2017-09-17 16:15:15.176913 ::ERROR:: [joe1] in serverSock.create
+2017-09-17 16:15:15.176999 ::ERROR:: [joe1] [errno 98] socket error: Address already in use
+2017-09-17 16:15:15.254310 ::INFO:: [joe1] Server Closed
+2017-09-17 16:15:16.103970 ::INFO:: [joe2] server created successfully!! port:8889, capacity:1
+2017-09-17 16:15:19.712157 ::ERROR:: [joe1] in serverSock.create
+2017-09-17 16:15:19.712257 ::ERROR:: [joe1] [errno 98] socket error: Address already in use
+2017-09-17 16:15:19.809743 ::INFO:: [joe1] Server Closed
+2017-09-17 16:15:27.520893 ::INFO:: [joe3] server created successfully!! port:8890, capacity:1
+2017-09-17 16:15:29.525178 ::INFO:: [joe1] server created successfully!! port:8888, capacity:1
+2017-09-17 16:15:31.203024 ::INFO:: [joe1] client: 127.0.0.1:39188 connected!
+2017-09-17 16:15:31.203190 ::INFO:: [joe2] client: 127.0.0.1:43120 connected!
+2017-09-17 16:15:31.203345 ::INFO:: [joe3] client: 127.0.0.1:58492 connected!
+2017-09-17 16:15:33.205533 ::INFO:: [joe1] recv 7 bytes from client: 127.0.0.1:39188
+2017-09-17 16:15:36.208463 ::ERROR:: [joe2] in serverSock.recv
+2017-09-17 16:15:36.208609 ::ERROR:: [joe2] [errno None] socket error: None
+2017-09-17 16:15:36.208601 ::ERROR:: [joe3] in serverSock.recv
+2017-09-17 16:15:36.208723 ::ERROR:: [joe3] [errno None] socket error: None
+2017-09-17 16:15:36.319639 ::INFO:: [joe3] Server Closed
+2017-09-17 16:15:36.326458 ::INFO:: [joe2] Server Closed
+2017-09-17 16:15:43.216482 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39188
+2017-09-17 16:15:44.217985 ::INFO:: [joe1] recv 7 bytes from client: 127.0.0.1:39188
+2017-09-17 16:15:54.229356 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39188
+2017-09-17 16:15:55.230816 ::INFO:: [joe1] recv 7 bytes from client: 127.0.0.1:39188
+2017-09-17 16:16:05.242260 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39188
+2017-09-17 16:16:06.243734 ::INFO:: [joe1] recv 7 bytes from client: 127.0.0.1:39188
+2017-09-17 16:16:16.255077 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39188
+2017-09-17 16:16:17.256549 ::INFO:: [joe1] recv 7 bytes from client: 127.0.0.1:39188
+2017-09-17 16:16:27.267975 ::ERROR:: [joe1] in serverSock.send
+2017-09-17 16:16:27.268098 ::ERROR:: [joe1] [errno 32] socket error: Broken pipe
+2017-09-17 16:16:27.268210 ::ERROR:: [joe1] in serverSock.recv
+2017-09-17 16:16:27.268275 ::ERROR:: [joe1] [errno 9] socket error: Bad file descriptor
+2017-09-17 16:16:27.378496 ::INFO:: [joe1] Server Closed
+2017-09-17 16:23:29.880815 ::INFO:: [joe1] server created successfully!! port:8888, capacity:1
+2017-09-17 16:23:30.585829 ::INFO:: [joe2] server created successfully!! port:8889, capacity:1
+2017-09-17 16:23:31.311270 ::INFO:: [joe3] server created successfully!! port:8890, capacity:1
+2017-09-17 16:23:35.274911 ::INFO:: [joe3] client: 127.0.0.1:58512 connected!
+2017-09-17 16:23:35.275113 ::INFO:: [joe2] client: 127.0.0.1:43144 connected!
+2017-09-17 16:23:35.275244 ::INFO:: [joe1] client: 127.0.0.1:39216 connected!
+2017-09-17 16:23:37.277454 ::INFO:: [joe3] recv 7 bytes from client: 127.0.0.1:58512
+2017-09-17 16:23:40.280364 ::ERROR:: [joe2] in serverSock.recv
+2017-09-17 16:23:40.280476 ::ERROR:: [joe1] in serverSock.recv
+2017-09-17 16:23:40.280542 ::ERROR:: [joe2] [errno None] timeout: None
+2017-09-17 16:23:40.281049 ::ERROR:: [joe1] [errno None] timeout: None
+2017-09-17 16:23:40.396421 ::INFO:: [joe1] Server Closed
+2017-09-17 16:23:40.397047 ::INFO:: [joe2] Server Closed
+2017-09-17 16:23:47.288906 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58512
+2017-09-17 16:23:48.290364 ::INFO:: [joe3] recv 7 bytes from client: 127.0.0.1:58512
+2017-09-17 16:23:58.301879 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58512
+2017-09-17 16:23:59.303388 ::INFO:: [joe3] recv 7 bytes from client: 127.0.0.1:58512
+2017-09-17 16:24:09.314941 ::ERROR:: [joe3] in serverSock.send
+2017-09-17 16:24:09.315073 ::ERROR:: [joe3] [errno 32] socket error: Broken pipe
+2017-09-17 16:24:09.315164 ::ERROR:: [joe3] in serverSock.recv
+2017-09-17 16:24:09.315216 ::ERROR:: [joe3] [errno 9] socket error: Bad file descriptor
+2017-09-17 16:24:09.429925 ::INFO:: [joe3] Server Closed
+2017-09-17 16:26:22.491307 ::INFO:: [joe1] server created successfully!! port:8888, capacity:1
+2017-09-17 16:26:23.218817 ::INFO:: [joe2] server created successfully!! port:8889, capacity:1
+2017-09-17 16:26:25.518973 ::INFO:: [joe2] client: 127.0.0.1:43174 connected!
+2017-09-17 16:26:25.519240 ::INFO:: [joe1] client: 127.0.0.1:39246 connected!
+2017-09-17 16:26:27.521450 ::INFO:: [joe2] recv 7 bytes from client: 127.0.0.1:43174
+2017-09-17 16:26:30.524530 ::ERROR:: [joe1] in serverSock.recv
+2017-09-17 16:26:30.524683 ::ERROR:: [joe1] [errno None] timeout: None
+2017-09-17 16:26:30.637147 ::INFO:: [joe1] Server Closed
+2017-09-17 16:26:37.532301 ::INFO:: [joe2] send 4 bytes to client: 127.0.0.1:43174
+2017-09-17 16:26:38.533748 ::INFO:: [joe2] recv 7 bytes from client: 127.0.0.1:43174
+2017-09-17 16:26:48.544429 ::ERROR:: [joe2] in serverSock.send
+2017-09-17 16:26:48.544514 ::ERROR:: [joe2] [errno 32] socket error: Broken pipe
+2017-09-17 16:26:48.544584 ::ERROR:: [joe2] in serverSock.recv
+2017-09-17 16:26:48.544618 ::ERROR:: [joe2] [errno 9] socket error: Bad file descriptor
+2017-09-17 16:26:48.605354 ::INFO:: [joe2] Server Closed
+2017-09-17 16:30:12.622270 ::INFO:: [joe1] server created successfully!! port:8888, capacity:1
+2017-09-17 16:30:13.504063 ::INFO:: [joe2] server created successfully!! port:8889, capacity:1
+2017-09-17 16:30:19.407612 ::INFO:: [joe3] server created successfully!! port:8890, capacity:1
+2017-09-17 16:30:21.003167 ::INFO:: [joe3] client: 127.0.0.1:58594 connected!
+2017-09-17 16:30:21.003425 ::INFO:: [joe2] client: 127.0.0.1:43226 connected!
+2017-09-17 16:30:21.003688 ::INFO:: [joe1] client: 127.0.0.1:39298 connected!
+2017-09-17 16:30:23.005905 ::INFO:: [joe3] recv 7 bytes from client: 127.0.0.1:58594
+2017-09-17 16:30:26.008724 ::ERROR:: [joe2] in serverSock.recv
+2017-09-17 16:30:26.008919 ::ERROR:: [joe2] [errno None] timeout: None
+2017-09-17 16:30:26.008933 ::ERROR:: [joe1] in serverSock.recv
+2017-09-17 16:30:26.009050 ::ERROR:: [joe1] [errno None] timeout: None
+2017-09-17 16:30:26.125700 ::INFO:: [joe1] Server Closed
+2017-09-17 16:30:26.128830 ::INFO:: [joe2] Server Closed
+2017-09-17 16:30:33.016526 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58594
+2017-09-17 16:30:34.017964 ::INFO:: [joe3] recv 7 bytes from client: 127.0.0.1:58594
+2017-09-17 16:30:44.029420 ::ERROR:: [joe3] in serverSock.send
+2017-09-17 16:30:44.029541 ::ERROR:: [joe3] [errno 32] BrokenPipeError: Broken pipe
+2017-09-17 16:30:44.029628 ::ERROR:: [joe3] in serverSock.recv
+2017-09-17 16:30:44.029738 ::ERROR:: [joe3] [errno 9] OSError: Bad file descriptor
+2017-09-17 16:30:44.142565 ::INFO:: [joe3] Server Closed
+2017-09-17 16:32:25.899368 ::INFO:: [joe1] server created successfully!! port:8888, capacity:1
+2017-09-17 16:32:26.593790 ::INFO:: [joe2] server created successfully!! port:8889, capacity:1
+2017-09-17 16:32:27.238808 ::INFO:: [joe3] server created successfully!! port:8890, capacity:1
+2017-09-17 16:32:28.534936 ::INFO:: [joe1] client: 127.0.0.1:39358 connected!
+2017-09-17 16:32:28.535137 ::INFO:: [joe2] client: 127.0.0.1:43290 connected!
+2017-09-17 16:32:28.535252 ::INFO:: [joe3] client: 127.0.0.1:58662 connected!
+2017-09-17 16:32:30.537459 ::INFO:: [joe1] recv 7 bytes from client: 127.0.0.1:39358
+2017-09-17 16:32:40.548851 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39358
+2017-09-17 16:32:41.550366 ::INFO:: [joe1] recv 7 bytes from client: 127.0.0.1:39358
+2017-09-17 16:32:51.561778 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39358
+2017-09-17 16:32:52.563201 ::INFO:: [joe1] recv 7 bytes from client: 127.0.0.1:39358
+2017-09-17 16:33:02.574590 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39358
+2017-09-17 16:33:03.576145 ::INFO:: [joe1] recv 7 bytes from client: 127.0.0.1:39358
+2017-09-17 16:33:09.681293 ::INFO:: [joe3] Server Closed
+2017-09-17 16:33:09.683189 ::INFO:: [joe2] Server Closed
+2017-09-17 16:33:13.587634 ::ERROR:: [joe1] in serverSock.send
+2017-09-17 16:33:13.587757 ::ERROR:: [joe1] [errno 32] BrokenPipeError: Broken pipe
+2017-09-17 16:33:13.587844 ::ERROR:: [joe1] in serverSock.recv
+2017-09-17 16:33:13.587894 ::ERROR:: [joe1] [errno 9] OSError: Bad file descriptor
+2017-09-17 16:33:13.704479 ::INFO:: [joe1] Server Closed
+2017-09-17 16:41:44.265282 ::INFO:: [joe1] server created successfully!! port:8888, capacity:1
+2017-09-17 16:41:45.054367 ::INFO:: [joe2] server created successfully!! port:8889, capacity:1
+2017-09-17 16:41:45.655072 ::INFO:: [joe3] server created successfully!! port:8890, capacity:1
+2017-09-17 16:41:46.776077 ::INFO:: [joe3] client: 127.0.0.1:58694 connected!
+2017-09-17 16:41:46.776255 ::INFO:: [joe2] client: 127.0.0.1:43326 connected!
+2017-09-17 16:41:46.776428 ::INFO:: [joe1] client: 127.0.0.1:39398 connected!
+2017-09-17 16:41:52.113025 ::INFO:: [joe2] Server Closed
+2017-09-17 16:41:52.120002 ::INFO:: [joe1] Server Closed
+2017-09-17 16:41:52.125685 ::INFO:: [joe3] Server Closed
+2017-09-17 16:43:09.748437 ::INFO:: [joe1] server created successfully!! port:8888, capacity:1
+2017-09-17 16:43:10.384460 ::INFO:: [joe2] server created successfully!! port:8889, capacity:1
+2017-09-17 16:43:10.969408 ::INFO:: [joe3] server created successfully!! port:8890, capacity:1
+2017-09-17 16:43:13.160643 ::INFO:: [joe2] client: 127.0.0.1:43330 connected!
+2017-09-17 16:43:13.160869 ::INFO:: [joe3] client: 127.0.0.1:58702 connected!
+2017-09-17 16:43:13.161018 ::INFO:: [joe1] client: 127.0.0.1:39404 connected!
+2017-09-17 16:43:15.163368 ::INFO:: [joe2] recv 6 bytes from client: 127.0.0.1:43330
+2017-09-17 16:43:16.665008 ::INFO:: [joe3] recv 6 bytes from client: 127.0.0.1:58702
+2017-09-17 16:43:18.166629 ::INFO:: [joe1] recv 6 bytes from client: 127.0.0.1:39404
+2017-09-17 16:43:23.172485 ::INFO:: [joe2] send 4 bytes to client: 127.0.0.1:43330
+2017-09-17 16:43:24.173944 ::INFO:: [joe2] recv 6 bytes from client: 127.0.0.1:43330
+2017-09-17 16:43:24.674240 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58702
+2017-09-17 16:43:25.675712 ::INFO:: [joe3] recv 6 bytes from client: 127.0.0.1:58702
+2017-09-17 16:43:26.175751 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39404
+2017-09-17 16:43:27.177205 ::INFO:: [joe1] recv 6 bytes from client: 127.0.0.1:39404
+2017-09-17 16:43:32.183010 ::INFO:: [joe2] send 4 bytes to client: 127.0.0.1:43330
+2017-09-17 16:43:33.184488 ::INFO:: [joe2] recv 6 bytes from client: 127.0.0.1:43330
+2017-09-17 16:43:33.684070 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58702
+2017-09-17 16:43:34.685570 ::INFO:: [joe3] recv 6 bytes from client: 127.0.0.1:58702
+2017-09-17 16:43:35.186332 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39404
+2017-09-17 16:43:36.187818 ::INFO:: [joe1] recv 6 bytes from client: 127.0.0.1:39404
+2017-09-17 16:43:41.192729 ::INFO:: [joe2] send 4 bytes to client: 127.0.0.1:43330
+2017-09-17 16:43:42.194339 ::INFO:: [joe2] recv 6 bytes from client: 127.0.0.1:43330
+2017-09-17 16:43:42.694843 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58702
+2017-09-17 16:43:44.196912 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39404
+2017-09-17 16:43:50.203613 ::INFO:: [joe2] send 4 bytes to client: 127.0.0.1:43330
+2017-09-17 16:43:51.205208 ::INFO:: [joe2] recv 3 bytes from client: 127.0.0.1:43330
+2017-09-17 16:43:51.205422 ::INFO:: [joe2] Server Closed
+2017-09-17 16:43:51.205697 ::ERROR:: [joe2] in serverSock.recv
+2017-09-17 16:43:51.205767 ::ERROR:: [joe2] [errno 9] OSError: Bad file descriptor
+2017-09-17 16:43:51.316540 ::INFO:: [joe2] Server Closed
+2017-09-17 16:43:52.206722 ::INFO:: [joe3] recv 7 bytes from client: 127.0.0.1:58702
+2017-09-17 16:43:53.207843 ::INFO:: [joe1] recv 7 bytes from client: 127.0.0.1:39404
+2017-09-17 16:44:02.217297 ::ERROR:: [joe3] in serverSock.send
+2017-09-17 16:44:02.217417 ::ERROR:: [joe3] [errno 32] BrokenPipeError: Broken pipe
+2017-09-17 16:44:02.217500 ::ERROR:: [joe3] in serverSock.recv
+2017-09-17 16:44:02.217546 ::ERROR:: [joe3] [errno 9] OSError: Bad file descriptor
+2017-09-17 16:44:02.327436 ::INFO:: [joe3] Server Closed
+2017-09-17 16:44:03.219135 ::ERROR:: [joe1] in serverSock.send
+2017-09-17 16:44:03.219257 ::ERROR:: [joe1] [errno 32] BrokenPipeError: Broken pipe
+2017-09-17 16:44:03.219340 ::ERROR:: [joe1] in serverSock.recv
+2017-09-17 16:44:03.219386 ::ERROR:: [joe1] [errno 9] OSError: Bad file descriptor
+2017-09-17 16:44:03.326235 ::INFO:: [joe1] Server Closed
+2017-09-17 16:46:41.283358 ::INFO:: [joe1] server created successfully!! port:8888, capacity:1
+2017-09-17 16:46:45.682579 ::INFO:: [joe2] server created successfully!! port:8889, capacity:1
+2017-09-17 16:46:46.822609 ::INFO:: [joe3] server created successfully!! port:8890, capacity:1
+2017-09-17 16:46:49.314632 ::INFO:: [joe3] client: 127.0.0.1:58706 connected!
+2017-09-17 16:46:49.314803 ::INFO:: [joe1] client: 127.0.0.1:39408 connected!
+2017-09-17 16:46:49.314960 ::INFO:: [joe2] client: 127.0.0.1:43340 connected!
+2017-09-17 16:46:51.317290 ::INFO:: [joe3] recv 6 bytes from client: 127.0.0.1:58706
+2017-09-17 16:46:52.818953 ::INFO:: [joe1] recv 6 bytes from client: 127.0.0.1:39408
+2017-09-17 16:46:54.320536 ::INFO:: [joe2] recv 6 bytes from client: 127.0.0.1:43340
+2017-09-17 16:46:59.326020 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58706
+2017-09-17 16:47:00.327486 ::INFO:: [joe3] recv 6 bytes from client: 127.0.0.1:58706
+2017-09-17 16:47:00.828058 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39408
+2017-09-17 16:47:01.829487 ::INFO:: [joe1] recv 6 bytes from client: 127.0.0.1:39408
+2017-09-17 16:47:02.329458 ::INFO:: [joe2] send 4 bytes to client: 127.0.0.1:43340
+2017-09-17 16:47:03.330999 ::INFO:: [joe2] recv 6 bytes from client: 127.0.0.1:43340
+2017-09-17 16:47:08.336617 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58706
+2017-09-17 16:47:09.338011 ::INFO:: [joe3] recv 6 bytes from client: 127.0.0.1:58706
+2017-09-17 16:47:09.838609 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39408
+2017-09-17 16:47:10.839625 ::INFO:: [joe1] recv 6 bytes from client: 127.0.0.1:39408
+2017-09-17 16:47:11.339585 ::INFO:: [joe2] send 4 bytes to client: 127.0.0.1:43340
+2017-09-17 16:47:12.341099 ::INFO:: [joe2] recv 6 bytes from client: 127.0.0.1:43340
+2017-09-17 16:47:17.346908 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58706
+2017-09-17 16:47:18.348282 ::INFO:: [joe3] recv 6 bytes from client: 127.0.0.1:58706
+2017-09-17 16:47:18.848770 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39408
+2017-09-17 16:47:20.350270 ::INFO:: [joe2] send 4 bytes to client: 127.0.0.1:43340
+2017-09-17 16:47:26.357709 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58706
+2017-09-17 16:47:27.359328 ::INFO:: [joe2] recv 3 bytes from client: 127.0.0.1:43340
+2017-09-17 16:47:27.359515 ::INFO:: [joe2] Server Closed
+2017-09-17 16:47:27.359640 ::INFO:: [joe3] recv 7 bytes from client: 127.0.0.1:58706
+2017-09-17 16:47:27.362425 ::INFO:: [joe2] Server Closed
+2017-09-17 16:47:28.360832 ::INFO:: [joe1] recv 7 bytes from client: 127.0.0.1:39408
+2017-09-17 16:47:37.369921 ::ERROR:: [joe3] in serverSock.send
+2017-09-17 16:47:37.370045 ::ERROR:: [joe3] [errno 32] BrokenPipeError: Broken pipe
+2017-09-17 16:47:37.370159 ::ERROR:: [joe3] in serverSock.recv
+2017-09-17 16:47:37.370218 ::ERROR:: [joe3] [errno 9] OSError: Bad file descriptor
+2017-09-17 16:47:37.487080 ::INFO:: [joe3] Server Closed
+2017-09-17 16:47:38.372128 ::ERROR:: [joe1] in serverSock.send
+2017-09-17 16:47:38.372253 ::ERROR:: [joe1] [errno 32] BrokenPipeError: Broken pipe
+2017-09-17 16:47:38.372377 ::ERROR:: [joe1] in serverSock.recv
+2017-09-17 16:47:38.372443 ::ERROR:: [joe1] [errno 9] OSError: Bad file descriptor
+2017-09-17 16:47:38.487448 ::INFO:: [joe1] Server Closed
+2017-09-17 16:53:36.444092 ::INFO:: [joe1] server created successfully!! port:8888, capacity:1
+2017-09-17 16:53:37.136562 ::INFO:: [joe2] server created successfully!! port:8889, capacity:1
+2017-09-17 16:53:38.855948 ::INFO:: [joe3] server created successfully!! port:8890, capacity:1
+2017-09-17 16:54:32.171802 ::INFO:: [joe3] client: 127.0.0.1:58738 connected!
+2017-09-17 16:54:32.172015 ::INFO:: [joe2] client: 127.0.0.1:43370 connected!
+2017-09-17 16:54:32.172160 ::INFO:: [joe1] client: 127.0.0.1:39442 connected!
+2017-09-17 16:54:34.174536 ::INFO:: [joe3] recv 6 bytes from client: 127.0.0.1:58738
+2017-09-17 16:54:35.676178 ::INFO:: [joe2] recv 6 bytes from client: 127.0.0.1:43370
+2017-09-17 16:54:37.177771 ::INFO:: [joe1] recv 6 bytes from client: 127.0.0.1:39442
+2017-09-17 16:54:42.184226 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58738
+2017-09-17 16:54:43.185182 ::INFO:: [joe3] recv 6 bytes from client: 127.0.0.1:58738
+2017-09-17 16:54:43.685314 ::INFO:: [joe2] send 4 bytes to client: 127.0.0.1:43370
+2017-09-17 16:54:44.686872 ::INFO:: [joe2] recv 6 bytes from client: 127.0.0.1:43370
+2017-09-17 16:54:45.186939 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39442
+2017-09-17 16:54:46.188767 ::INFO:: [joe1] recv 6 bytes from client: 127.0.0.1:39442
+2017-09-17 16:54:51.194368 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58738
+2017-09-17 16:54:52.195878 ::INFO:: [joe3] recv 6 bytes from client: 127.0.0.1:58738
+2017-09-17 16:54:52.696059 ::INFO:: [joe2] send 4 bytes to client: 127.0.0.1:43370
+2017-09-17 16:54:53.697607 ::INFO:: [joe2] recv 6 bytes from client: 127.0.0.1:43370
+2017-09-17 16:54:54.197813 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39442
+2017-09-17 16:54:55.199382 ::INFO:: [joe1] recv 6 bytes from client: 127.0.0.1:39442
+2017-09-17 16:55:00.204923 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58738
+2017-09-17 16:55:01.206379 ::INFO:: [joe3] recv 6 bytes from client: 127.0.0.1:58738
+2017-09-17 16:55:01.706698 ::INFO:: [joe2] send 4 bytes to client: 127.0.0.1:43370
+2017-09-17 16:55:03.208146 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39442
+2017-09-17 16:55:09.215092 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58738
+2017-09-17 16:55:10.216678 ::INFO:: [joe2] recv 3 bytes from client: 127.0.0.1:43370
+2017-09-17 16:55:10.216882 ::INFO:: [joe2] Server Closed
+2017-09-17 16:55:10.217060 ::INFO:: [joe3] recv 7 bytes from client: 127.0.0.1:58738
+2017-09-17 16:55:10.220362 ::INFO:: [joe2] Server Closed
+2017-09-17 16:55:11.218316 ::INFO:: [joe1] recv 7 bytes from client: 127.0.0.1:39442
+2017-09-17 16:55:20.227959 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58738
+2017-09-17 16:55:20.228052 ::INFO:: [joe3] recv 3 bytes from client: 127.0.0.1:58738
+2017-09-17 16:55:20.228125 ::INFO:: [joe3] Server Closed
+2017-09-17 16:55:20.229964 ::INFO:: [joe3] Server Closed
+2017-09-17 16:55:21.229024 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39442
+2017-09-17 16:55:21.229118 ::INFO:: [joe1] recv 3 bytes from client: 127.0.0.1:39442
+2017-09-17 16:55:21.229196 ::INFO:: [joe1] Server Closed
+2017-09-17 16:55:21.231298 ::INFO:: [joe1] Server Closed
+2017-09-17 16:57:15.510569 ::INFO:: [joe1] server created successfully!! port:8888, capacity:1
+2017-09-17 16:57:16.181233 ::INFO:: [joe2] server created successfully!! port:8889, capacity:1
+2017-09-17 16:57:16.631084 ::INFO:: [joe3] server created successfully!! port:8890, capacity:1
+2017-09-17 16:57:18.877644 ::INFO:: [joe3] client: 127.0.0.1:58746 connected!
+2017-09-17 16:57:18.877843 ::INFO:: [joe2] client: 127.0.0.1:43378 connected!
+2017-09-17 16:57:18.878007 ::INFO:: [joe1] client: 127.0.0.1:39450 connected!
+2017-09-17 16:57:20.880318 ::INFO:: [joe3] recv 6 bytes from client: 127.0.0.1:58746
+2017-09-17 16:57:22.382028 ::INFO:: [joe2] recv 6 bytes from client: 127.0.0.1:43378
+2017-09-17 16:57:23.883796 ::INFO:: [joe1] recv 6 bytes from client: 127.0.0.1:39450
+2017-09-17 16:57:28.889384 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58746
+2017-09-17 16:57:29.890712 ::INFO:: [joe3] recv 6 bytes from client: 127.0.0.1:58746
+2017-09-17 16:57:30.391094 ::INFO:: [joe2] send 4 bytes to client: 127.0.0.1:43378
+2017-09-17 16:57:31.392600 ::INFO:: [joe2] recv 6 bytes from client: 127.0.0.1:43378
+2017-09-17 16:57:31.893210 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39450
+2017-09-17 16:57:32.894642 ::INFO:: [joe1] recv 6 bytes from client: 127.0.0.1:39450
+2017-09-17 16:57:37.899646 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58746
+2017-09-17 16:57:38.901171 ::INFO:: [joe3] recv 6 bytes from client: 127.0.0.1:58746
+2017-09-17 16:57:39.401018 ::INFO:: [joe2] send 4 bytes to client: 127.0.0.1:43378
+2017-09-17 16:57:40.402512 ::INFO:: [joe2] recv 6 bytes from client: 127.0.0.1:43378
+2017-09-17 16:57:40.903575 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39450
+2017-09-17 16:57:41.905058 ::INFO:: [joe1] recv 6 bytes from client: 127.0.0.1:39450
+2017-09-17 16:57:46.910245 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58746
+2017-09-17 16:57:47.911461 ::INFO:: [joe3] recv 6 bytes from client: 127.0.0.1:58746
+2017-09-17 16:57:48.411626 ::INFO:: [joe2] send 4 bytes to client: 127.0.0.1:43378
+2017-09-17 16:57:49.913566 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39450
+2017-09-17 16:57:55.920428 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58746
+2017-09-17 16:57:56.922009 ::INFO:: [joe2] recv 3 bytes from client: 127.0.0.1:43378
+2017-09-17 16:57:56.922230 ::INFO:: [joe2] Server Closed
+2017-09-17 16:57:56.922563 ::INFO:: [joe3] recv 7 bytes from client: 127.0.0.1:58746
+2017-09-17 16:57:56.925470 ::INFO:: [joe2] Server Closed
+2017-09-17 16:57:57.923859 ::INFO:: [joe1] recv 7 bytes from client: 127.0.0.1:39450
+2017-09-17 16:58:06.933836 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58746
+2017-09-17 16:58:06.954528 ::INFO:: [joe3] recv 7 bytes from client: 127.0.0.1:58746
+2017-09-17 16:58:07.934998 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39450
+2017-09-17 16:58:07.955722 ::INFO:: [joe1] recv 7 bytes from client: 127.0.0.1:39450
+2017-09-17 16:58:16.965444 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58746
+2017-09-17 16:58:17.021323 ::INFO:: [joe3] recv 7 bytes from client: 127.0.0.1:58746
+2017-09-17 16:58:17.966619 ::INFO:: [joe1] send 4 bytes to client: 127.0.0.1:39450
+2017-09-17 16:58:27.032596 ::INFO:: [joe3] send 4 bytes to client: 127.0.0.1:58746
+2017-09-17 16:58:28.075237 ::INFO:: [joe1] recv 3 bytes from client: 127.0.0.1:39450
+2017-09-17 16:58:28.075408 ::INFO:: [joe1] Server Closed
+2017-09-17 16:58:28.075423 ::INFO:: [joe3] recv 3 bytes from client: 127.0.0.1:58746
+2017-09-17 16:58:28.075636 ::INFO:: [joe3] Server Closed
+2017-09-17 16:58:28.078550 ::INFO:: [joe1] Server Closed
+2017-09-17 16:58:28.078967 ::INFO:: [joe3] Server Closed

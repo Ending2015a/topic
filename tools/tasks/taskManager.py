@@ -4,8 +4,9 @@ from ..socket.clientSock import clientSock
 
 
 class Task(object):
-    def __init__(self):
+    def __init__(self, func, *argv, **kargv):
         self.state = False
+        self
 
     def 
     

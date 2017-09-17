@@ -1,0 +1,328 @@
+2017-09-17 12:45:17.326182 ::ERROR:: [joe1] in clientSock.connect
+2017-09-17 12:45:17.326285 ::ERROR:: [joe1] [errno 111] socket error: Connection refused
+2017-09-17 12:45:17.326331 ::ERROR:: [deviceManager] cannot connect to device 'joe1', 127.0.0.1:8888
+2017-09-17 12:45:17.326384 ::INFO:: [joe1] client Closed
+2017-09-17 12:45:17.329423 ::INFO:: [joe2] client Closed
+2017-09-17 12:45:17.329564 ::INFO:: [joe3] client Closed
+2017-09-17 12:46:03.772518 ::ERROR:: [joe3] in clientSock.connect
+2017-09-17 12:46:03.772623 ::ERROR:: [joe3] [errno 111] socket error: Connection refused
+2017-09-17 12:46:03.772671 ::ERROR:: [deviceManager] cannot connect to device 'joe3', 127.0.0.1:8890
+2017-09-17 12:46:03.772726 ::INFO:: [joe3] client Closed
+2017-09-17 12:46:03.772972 ::ERROR:: [joe2] in clientSock.connect
+2017-09-17 12:46:03.773026 ::ERROR:: [joe2] [errno 111] socket error: Connection refused
+2017-09-17 12:46:03.773068 ::ERROR:: [deviceManager] cannot connect to device 'joe2', 127.0.0.1:8889
+2017-09-17 12:46:03.773113 ::INFO:: [joe2] client Closed
+2017-09-17 12:46:03.775878 ::INFO:: [joe1] client Closed
+2017-09-17 12:52:59.973518 ::INFO:: [deviceManager] connecting to deivce 'joe1', 127.0.0.1:8888
+2017-09-17 12:52:59.973716 ::INFO:: [deviceManager] connection established to device 'joe1', 127.0.0.1:8888
+2017-09-17 12:52:59.973801 ::INFO:: [deviceManager] connecting to deivce 'joe2', 127.0.0.1:8889
+2017-09-17 12:52:59.973884 ::ERROR:: [joe2] in clientSock.connect
+2017-09-17 12:52:59.973932 ::ERROR:: [joe2] [errno 111] socket error: Connection refused
+2017-09-17 12:52:59.973967 ::ERROR:: [deviceManager] cannot connect to device 'joe2', 127.0.0.1:8889
+2017-09-17 12:52:59.974015 ::INFO:: [joe2] client Closed
+2017-09-17 12:52:59.974140 ::INFO:: [deviceManager] connecting to deivce 'joe3', 127.0.0.1:8890
+2017-09-17 12:52:59.974224 ::ERROR:: [joe3] in clientSock.connect
+2017-09-17 12:52:59.974268 ::ERROR:: [joe3] [errno 111] socket error: Connection refused
+2017-09-17 12:52:59.974298 ::ERROR:: [deviceManager] cannot connect to device 'joe3', 127.0.0.1:8890
+2017-09-17 12:52:59.974338 ::INFO:: [joe3] client Closed
+2017-09-17 12:52:59.977076 ::INFO:: [joe1] client Closed
+2017-09-17 12:54:48.820547 ::INFO:: [deviceManager] connecting to deivce 'joe2', 127.0.0.1:8889
+2017-09-17 12:54:48.820747 ::INFO:: [deviceManager] connection established to device 'joe2', 127.0.0.1:8889
+2017-09-17 12:54:48.820863 ::INFO:: [deviceManager] connecting to deivce 'joe3', 127.0.0.1:8890
+2017-09-17 12:54:48.821008 ::INFO:: [deviceManager] connection established to device 'joe3', 127.0.0.1:8890
+2017-09-17 12:54:48.821121 ::INFO:: [deviceManager] connecting to deivce 'joe1', 127.0.0.1:8888
+2017-09-17 12:54:48.821273 ::INFO:: [deviceManager] connection established to device 'joe1', 127.0.0.1:8888
+2017-09-17 12:54:48.825239 ::INFO:: [joe2] client Closed
+2017-09-17 12:54:48.825439 ::INFO:: [joe3] client Closed
+2017-09-17 12:54:48.825609 ::INFO:: [joe1] client Closed
+2017-09-17 16:06:32.459828 ::INFO:: [deviceManager] connecting to deivce 'joe1' (127.0.0.1:8888)
+2017-09-17 16:06:32.459994 ::INFO:: [deviceManager] connection established to device 'joe1' (127.0.0.1:8888)
+2017-09-17 16:06:32.460061 ::INFO:: [deviceManager] connecting to deivce 'joe3' (127.0.0.1:8890)
+2017-09-17 16:06:32.460133 ::INFO:: [deviceManager] connection established to device 'joe3' (127.0.0.1:8890)
+2017-09-17 16:06:32.460193 ::INFO:: [deviceManager] connecting to deivce 'joe2' (127.0.0.1:8889)
+2017-09-17 16:06:32.460260 ::INFO:: [deviceManager] connection established to device 'joe2' (127.0.0.1:8889)
+2017-09-17 16:06:34.571081 ::INFO:: [joe1] client Closed
+2017-09-17 16:06:34.571249 ::INFO:: [joe3] client Closed
+2017-09-17 16:06:34.571360 ::INFO:: [joe2] client Closed
+2017-09-17 16:07:31.324813 ::INFO:: [deviceManager] connecting to deivce 'joe3' (127.0.0.1:8890)
+2017-09-17 16:07:31.325002 ::INFO:: [deviceManager] connection established to device 'joe3' (127.0.0.1:8890)
+2017-09-17 16:07:31.325083 ::INFO:: [deviceManager] connecting to deivce 'joe2' (127.0.0.1:8889)
+2017-09-17 16:07:31.325171 ::INFO:: [deviceManager] connection established to device 'joe2' (127.0.0.1:8889)
+2017-09-17 16:07:31.325250 ::INFO:: [deviceManager] connecting to deivce 'joe1' (127.0.0.1:8888)
+2017-09-17 16:07:31.325332 ::INFO:: [deviceManager] connection established to device 'joe1' (127.0.0.1:8888)
+2017-09-17 16:07:33.434370 ::INFO:: [joe3] client Closed
+2017-09-17 16:07:33.434540 ::INFO:: [joe2] client Closed
+2017-09-17 16:07:33.434650 ::INFO:: [joe1] client Closed
+2017-09-17 16:08:01.235905 ::INFO:: [deviceManager] connecting to deivce 'joe2' (127.0.0.1:8889)
+2017-09-17 16:08:01.236113 ::INFO:: [deviceManager] connection established to device 'joe2' (127.0.0.1:8889)
+2017-09-17 16:08:01.236212 ::INFO:: [deviceManager] connecting to deivce 'joe1' (127.0.0.1:8888)
+2017-09-17 16:08:01.236337 ::INFO:: [deviceManager] connection established to device 'joe1' (127.0.0.1:8888)
+2017-09-17 16:08:01.236430 ::INFO:: [deviceManager] connecting to deivce 'joe3' (127.0.0.1:8890)
+2017-09-17 16:08:01.236546 ::INFO:: [deviceManager] connection established to device 'joe3' (127.0.0.1:8890)
+2017-09-17 16:08:03.238799 ::INFO:: [joe2] send 7 bytes to server: 127.0.0.1:8889
+2017-09-17 16:08:03.441775 ::INFO:: [joe2] client Closed
+2017-09-17 16:08:03.441956 ::INFO:: [joe1] client Closed
+2017-09-17 16:08:03.442087 ::INFO:: [joe3] client Closed
+2017-09-17 16:11:33.358894 ::INFO:: [deviceManager] connecting to deivce 'joe2' (127.0.0.1:8889)
+2017-09-17 16:11:33.359101 ::INFO:: [deviceManager] connection established to device 'joe2' (127.0.0.1:8889)
+2017-09-17 16:11:33.359188 ::INFO:: [deviceManager] connecting to deivce 'joe3' (127.0.0.1:8890)
+2017-09-17 16:11:33.359280 ::INFO:: [deviceManager] connection established to device 'joe3' (127.0.0.1:8890)
+2017-09-17 16:11:33.359352 ::INFO:: [deviceManager] connecting to deivce 'joe1' (127.0.0.1:8888)
+2017-09-17 16:11:33.359450 ::INFO:: [deviceManager] connection established to device 'joe1' (127.0.0.1:8888)
+2017-09-17 16:11:35.360698 ::INFO:: [joe2] send 7 bytes to server: 127.0.0.1:8889
+2017-09-17 16:11:35.567038 ::INFO:: [joe2] client Closed
+2017-09-17 16:11:35.567170 ::INFO:: [joe3] client Closed
+2017-09-17 16:11:35.567268 ::INFO:: [joe1] client Closed
+2017-09-17 16:14:25.877896 ::INFO:: [deviceManager] connecting to deivce 'joe1' (127.0.0.1:8888)
+2017-09-17 16:14:25.878097 ::INFO:: [deviceManager] connection established to device 'joe1' (127.0.0.1:8888)
+2017-09-17 16:14:25.878211 ::INFO:: [deviceManager] connecting to deivce 'joe3' (127.0.0.1:8890)
+2017-09-17 16:14:25.878347 ::INFO:: [deviceManager] connection established to device 'joe3' (127.0.0.1:8890)
+2017-09-17 16:14:25.878428 ::INFO:: [deviceManager] connecting to deivce 'joe2' (127.0.0.1:8889)
+2017-09-17 16:14:25.878514 ::INFO:: [deviceManager] connection established to device 'joe2' (127.0.0.1:8889)
+2017-09-17 16:14:27.879415 ::INFO:: [joe1] send 7 bytes to server: 127.0.0.1:8888
+2017-09-17 16:14:28.081180 ::INFO:: [joe1] client Closed
+2017-09-17 16:14:28.081314 ::INFO:: [joe3] client Closed
+2017-09-17 16:14:28.081444 ::INFO:: [joe2] client Closed
+2017-09-17 16:15:31.202695 ::INFO:: [deviceManager] connecting to deivce 'joe1' (127.0.0.1:8888)
+2017-09-17 16:15:31.202902 ::INFO:: [deviceManager] connection established to device 'joe1' (127.0.0.1:8888)
+2017-09-17 16:15:31.202989 ::INFO:: [deviceManager] connecting to deivce 'joe2' (127.0.0.1:8889)
+2017-09-17 16:15:31.203081 ::INFO:: [deviceManager] connection established to device 'joe2' (127.0.0.1:8889)
+2017-09-17 16:15:31.203153 ::INFO:: [deviceManager] connecting to deivce 'joe3' (127.0.0.1:8890)
+2017-09-17 16:15:31.203233 ::INFO:: [deviceManager] connection established to device 'joe3' (127.0.0.1:8890)
+2017-09-17 16:15:33.205506 ::INFO:: [joe1] send 7 bytes to server: 127.0.0.1:8888
+2017-09-17 16:15:43.216595 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:15:44.217929 ::INFO:: [joe1] send 7 bytes to server: 127.0.0.1:8888
+2017-09-17 16:15:54.229464 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:15:55.230762 ::INFO:: [joe1] send 7 bytes to server: 127.0.0.1:8888
+2017-09-17 16:16:05.242395 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:16:06.243679 ::INFO:: [joe1] send 7 bytes to server: 127.0.0.1:8888
+2017-09-17 16:16:16.255217 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:16:17.256497 ::INFO:: [joe1] send 7 bytes to server: 127.0.0.1:8888
+2017-09-17 16:16:26.202456 ::INFO:: [joe1] client Closed
+2017-09-17 16:16:26.202725 ::INFO:: [joe2] client Closed
+2017-09-17 16:16:26.202912 ::INFO:: [joe3] client Closed
+2017-09-17 16:23:35.274617 ::INFO:: [deviceManager] connecting to deivce 'joe3' (127.0.0.1:8890)
+2017-09-17 16:23:35.274807 ::INFO:: [deviceManager] connection established to device 'joe3' (127.0.0.1:8890)
+2017-09-17 16:23:35.274901 ::INFO:: [deviceManager] connecting to deivce 'joe2' (127.0.0.1:8889)
+2017-09-17 16:23:35.274994 ::INFO:: [deviceManager] connection established to device 'joe2' (127.0.0.1:8889)
+2017-09-17 16:23:35.275065 ::INFO:: [deviceManager] connecting to deivce 'joe1' (127.0.0.1:8888)
+2017-09-17 16:23:35.275148 ::INFO:: [deviceManager] connection established to device 'joe1' (127.0.0.1:8888)
+2017-09-17 16:23:37.277393 ::INFO:: [joe3] send 7 bytes to server: 127.0.0.1:8890
+2017-09-17 16:23:47.288984 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:23:48.290312 ::INFO:: [joe3] send 7 bytes to server: 127.0.0.1:8890
+2017-09-17 16:23:58.301984 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:23:59.303330 ::INFO:: [joe3] send 7 bytes to server: 127.0.0.1:8890
+2017-09-17 16:24:06.220702 ::INFO:: [joe3] client Closed
+2017-09-17 16:24:06.220925 ::INFO:: [joe2] client Closed
+2017-09-17 16:24:06.221090 ::INFO:: [joe1] client Closed
+2017-09-17 16:26:25.518268 ::INFO:: [deviceManager] connecting to deivce 'joe3' (127.0.0.1:8890)
+2017-09-17 16:26:25.518447 ::ERROR:: [joe3] in clientSock.connect
+2017-09-17 16:26:25.518509 ::ERROR:: [joe3] [errno 111] socket error: Connection refused
+2017-09-17 16:26:25.518551 ::ERROR:: [deviceManager] cannot connect to device 'joe3' (127.0.0.1:8890)
+2017-09-17 16:26:25.518605 ::INFO:: [joe3] client Closed
+2017-09-17 16:26:25.518739 ::INFO:: [deviceManager] connecting to deivce 'joe2' (127.0.0.1:8889)
+2017-09-17 16:26:25.518857 ::INFO:: [deviceManager] connection established to device 'joe2' (127.0.0.1:8889)
+2017-09-17 16:26:25.518966 ::INFO:: [deviceManager] connecting to deivce 'joe1' (127.0.0.1:8888)
+2017-09-17 16:26:25.519111 ::INFO:: [deviceManager] connection established to device 'joe1' (127.0.0.1:8888)
+2017-09-17 16:26:27.521448 ::INFO:: [joe2] send 7 bytes to server: 127.0.0.1:8889
+2017-09-17 16:26:37.532373 ::INFO:: [joe2] recv 4 bytes from server: 127.0.0.1:8889
+2017-09-17 16:26:38.533726 ::INFO:: [joe2] send 7 bytes to server: 127.0.0.1:8889
+2017-09-17 16:26:42.373722 ::INFO:: [joe2] client Closed
+2017-09-17 16:26:42.374025 ::INFO:: [joe1] client Closed
+2017-09-17 16:30:21.002854 ::INFO:: [deviceManager] connecting to deivce 'joe3' (127.0.0.1:8890)
+2017-09-17 16:30:21.003066 ::INFO:: [deviceManager] connection established to device 'joe3' (127.0.0.1:8890)
+2017-09-17 16:30:21.003184 ::INFO:: [deviceManager] connecting to deivce 'joe2' (127.0.0.1:8889)
+2017-09-17 16:30:21.003323 ::INFO:: [deviceManager] connection established to device 'joe2' (127.0.0.1:8889)
+2017-09-17 16:30:21.003433 ::INFO:: [deviceManager] connecting to deivce 'joe1' (127.0.0.1:8888)
+2017-09-17 16:30:21.003563 ::INFO:: [deviceManager] connection established to device 'joe1' (127.0.0.1:8888)
+2017-09-17 16:30:23.005859 ::INFO:: [joe3] send 7 bytes to server: 127.0.0.1:8890
+2017-09-17 16:30:33.016589 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:30:34.017910 ::INFO:: [joe3] send 7 bytes to server: 127.0.0.1:8890
+2017-09-17 16:30:38.042138 ::INFO:: [joe3] client Closed
+2017-09-17 16:30:38.042396 ::INFO:: [joe2] client Closed
+2017-09-17 16:30:38.042651 ::INFO:: [joe1] client Closed
+2017-09-17 16:32:28.534657 ::INFO:: [deviceManager] connecting to deivce 'joe1' (127.0.0.1:8888)
+2017-09-17 16:32:28.534852 ::INFO:: [deviceManager] connection established to device 'joe1' (127.0.0.1:8888)
+2017-09-17 16:32:28.534943 ::INFO:: [deviceManager] connecting to deivce 'joe2' (127.0.0.1:8889)
+2017-09-17 16:32:28.535030 ::INFO:: [deviceManager] connection established to device 'joe2' (127.0.0.1:8889)
+2017-09-17 16:32:28.535095 ::INFO:: [deviceManager] connecting to deivce 'joe3' (127.0.0.1:8890)
+2017-09-17 16:32:28.535170 ::INFO:: [deviceManager] connection established to device 'joe3' (127.0.0.1:8890)
+2017-09-17 16:32:30.537370 ::INFO:: [joe1] send 7 bytes to server: 127.0.0.1:8888
+2017-09-17 16:32:40.548950 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:32:41.550282 ::INFO:: [joe1] send 7 bytes to server: 127.0.0.1:8888
+2017-09-17 16:32:51.561789 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:32:52.563102 ::INFO:: [joe1] send 7 bytes to server: 127.0.0.1:8888
+2017-09-17 16:33:02.574679 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:33:03.576048 ::INFO:: [joe1] send 7 bytes to server: 127.0.0.1:8888
+2017-09-17 16:33:09.566538 ::INFO:: [joe1] client Closed
+2017-09-17 16:33:09.566831 ::INFO:: [joe2] client Closed
+2017-09-17 16:33:09.567084 ::INFO:: [joe3] client Closed
+2017-09-17 16:33:46.098389 ::INFO:: [deviceManager] connecting to deivce 'joe1' (127.0.0.1:8888)
+2017-09-17 16:33:46.098565 ::ERROR:: [joe1] in clientSock.connect
+2017-09-17 16:33:46.098620 ::ERROR:: [joe1] [errno 111] socket error: Connection refused
+2017-09-17 16:33:46.098655 ::ERROR:: [deviceManager] cannot connect to device 'joe1' (127.0.0.1:8888)
+2017-09-17 16:33:46.098703 ::INFO:: [joe1] client Closed
+2017-09-17 16:33:46.098823 ::INFO:: [deviceManager] connecting to deivce 'joe3' (127.0.0.1:8890)
+2017-09-17 16:33:46.098910 ::ERROR:: [joe3] in clientSock.connect
+2017-09-17 16:33:46.098951 ::ERROR:: [joe3] [errno 111] socket error: Connection refused
+2017-09-17 16:33:46.098982 ::ERROR:: [deviceManager] cannot connect to device 'joe3' (127.0.0.1:8890)
+2017-09-17 16:33:46.099021 ::INFO:: [joe3] client Closed
+2017-09-17 16:33:46.099126 ::INFO:: [deviceManager] connecting to deivce 'joe2' (127.0.0.1:8889)
+2017-09-17 16:33:46.099206 ::ERROR:: [joe2] in clientSock.connect
+2017-09-17 16:33:46.099246 ::ERROR:: [joe2] [errno 111] socket error: Connection refused
+2017-09-17 16:33:46.099275 ::ERROR:: [deviceManager] cannot connect to device 'joe2' (127.0.0.1:8889)
+2017-09-17 16:33:46.099313 ::INFO:: [joe2] client Closed
+2017-09-17 16:41:46.775756 ::INFO:: [deviceManager] connecting to deivce 'joe3' (127.0.0.1:8890)
+2017-09-17 16:41:46.775969 ::INFO:: [deviceManager] connection established to device 'joe3' (127.0.0.1:8890)
+2017-09-17 16:41:46.776058 ::INFO:: [deviceManager] connecting to deivce 'joe2' (127.0.0.1:8889)
+2017-09-17 16:41:46.776149 ::INFO:: [deviceManager] connection established to device 'joe2' (127.0.0.1:8889)
+2017-09-17 16:41:46.776220 ::INFO:: [deviceManager] connecting to deivce 'joe1' (127.0.0.1:8888)
+2017-09-17 16:41:46.776310 ::INFO:: [deviceManager] connection established to device 'joe1' (127.0.0.1:8888)
+2017-09-17 16:43:13.160370 ::INFO:: [deviceManager] connecting to deivce 'joe2' (127.0.0.1:8889)
+2017-09-17 16:43:13.160549 ::INFO:: [deviceManager] connection established to device 'joe2' (127.0.0.1:8889)
+2017-09-17 16:43:13.160645 ::INFO:: [deviceManager] connecting to deivce 'joe3' (127.0.0.1:8890)
+2017-09-17 16:43:13.160767 ::INFO:: [deviceManager] connection established to device 'joe3' (127.0.0.1:8890)
+2017-09-17 16:43:13.160838 ::INFO:: [deviceManager] connecting to deivce 'joe1' (127.0.0.1:8888)
+2017-09-17 16:43:13.160911 ::INFO:: [deviceManager] connection established to device 'joe1' (127.0.0.1:8888)
+2017-09-17 16:43:15.163288 ::INFO:: [joe2] send 6 bytes to server: 127.0.0.1:8889
+2017-09-17 16:43:16.664900 ::INFO:: [joe3] send 6 bytes to server: 127.0.0.1:8890
+2017-09-17 16:43:18.166543 ::INFO:: [joe1] send 6 bytes to server: 127.0.0.1:8888
+2017-09-17 16:43:23.172545 ::INFO:: [joe2] recv 4 bytes from server: 127.0.0.1:8889
+2017-09-17 16:43:24.173848 ::INFO:: [joe2] send 6 bytes to server: 127.0.0.1:8889
+2017-09-17 16:43:24.674300 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:43:25.675609 ::INFO:: [joe3] send 6 bytes to server: 127.0.0.1:8890
+2017-09-17 16:43:26.175826 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:43:27.177130 ::INFO:: [joe1] send 6 bytes to server: 127.0.0.1:8888
+2017-09-17 16:43:32.183085 ::INFO:: [joe2] recv 4 bytes from server: 127.0.0.1:8889
+2017-09-17 16:43:33.184421 ::INFO:: [joe2] send 6 bytes to server: 127.0.0.1:8889
+2017-09-17 16:43:33.684145 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:43:34.685491 ::INFO:: [joe3] send 6 bytes to server: 127.0.0.1:8890
+2017-09-17 16:43:35.186406 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:43:36.187742 ::INFO:: [joe1] send 6 bytes to server: 127.0.0.1:8888
+2017-09-17 16:43:41.192822 ::INFO:: [joe2] recv 4 bytes from server: 127.0.0.1:8889
+2017-09-17 16:43:42.194236 ::INFO:: [joe2] send 6 bytes to server: 127.0.0.1:8889
+2017-09-17 16:43:42.694909 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:43:44.196989 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:43:50.203725 ::INFO:: [joe2] recv 4 bytes from server: 127.0.0.1:8889
+2017-09-17 16:43:51.205141 ::INFO:: [joe2] send 3 bytes to server: 127.0.0.1:8889
+2017-09-17 16:43:51.205549 ::ERROR:: [joe2] in clientSock.send
+2017-09-17 16:43:51.205690 ::ERROR:: [joe2] [errno 32] socket error: Broken pipe
+2017-09-17 16:43:51.205781 ::ERROR:: [pool1] unpack requires a bytes object of length 4
+2017-09-17 16:43:52.206648 ::INFO:: [joe3] send 7 bytes to server: 127.0.0.1:8890
+2017-09-17 16:43:53.207747 ::INFO:: [joe1] send 7 bytes to server: 127.0.0.1:8888
+2017-09-17 16:43:56.231344 ::INFO:: [joe1] send 3 bytes to server: 127.0.0.1:8888
+2017-09-17 16:43:56.251895 ::INFO:: [joe3] send 3 bytes to server: 127.0.0.1:8890
+2017-09-17 16:46:49.314346 ::INFO:: [deviceManager] connecting to deivce 'joe3' (127.0.0.1:8890)
+2017-09-17 16:46:49.314536 ::INFO:: [deviceManager] connection established to device 'joe3' (127.0.0.1:8890)
+2017-09-17 16:46:49.314618 ::INFO:: [deviceManager] connecting to deivce 'joe1' (127.0.0.1:8888)
+2017-09-17 16:46:49.314705 ::INFO:: [deviceManager] connection established to device 'joe1' (127.0.0.1:8888)
+2017-09-17 16:46:49.314772 ::INFO:: [deviceManager] connecting to deivce 'joe2' (127.0.0.1:8889)
+2017-09-17 16:46:49.314850 ::INFO:: [deviceManager] connection established to device 'joe2' (127.0.0.1:8889)
+2017-09-17 16:46:51.317225 ::INFO:: [joe3] send 6 bytes to server: 127.0.0.1:8890
+2017-09-17 16:46:52.818871 ::INFO:: [joe1] send 6 bytes to server: 127.0.0.1:8888
+2017-09-17 16:46:54.320459 ::INFO:: [joe2] send 6 bytes to server: 127.0.0.1:8889
+2017-09-17 16:46:59.326081 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:47:00.327384 ::INFO:: [joe3] send 6 bytes to server: 127.0.0.1:8890
+2017-09-17 16:47:00.828131 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:47:01.829428 ::INFO:: [joe1] send 6 bytes to server: 127.0.0.1:8888
+2017-09-17 16:47:02.329566 ::INFO:: [joe2] recv 4 bytes from server: 127.0.0.1:8889
+2017-09-17 16:47:03.330897 ::INFO:: [joe2] send 6 bytes to server: 127.0.0.1:8889
+2017-09-17 16:47:08.336676 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:47:09.337923 ::INFO:: [joe3] send 6 bytes to server: 127.0.0.1:8890
+2017-09-17 16:47:09.838677 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:47:10.839524 ::INFO:: [joe1] send 6 bytes to server: 127.0.0.1:8888
+2017-09-17 16:47:11.339686 ::INFO:: [joe2] recv 4 bytes from server: 127.0.0.1:8889
+2017-09-17 16:47:12.341003 ::INFO:: [joe2] send 6 bytes to server: 127.0.0.1:8889
+2017-09-17 16:47:17.346982 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:47:18.348226 ::INFO:: [joe3] send 6 bytes to server: 127.0.0.1:8890
+2017-09-17 16:47:18.848815 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:47:20.350353 ::INFO:: [joe2] recv 4 bytes from server: 127.0.0.1:8889
+2017-09-17 16:47:26.357799 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:47:27.359258 ::INFO:: [joe2] send 3 bytes to server: 127.0.0.1:8889
+2017-09-17 16:47:27.359551 ::INFO:: [joe3] send 7 bytes to server: 127.0.0.1:8890
+2017-09-17 16:47:28.360727 ::INFO:: [joe1] send 7 bytes to server: 127.0.0.1:8888
+2017-09-17 16:47:29.361999 ::ERROR:: [joe2] in clientSock.send
+2017-09-17 16:47:29.362142 ::ERROR:: [joe2] [errno 32] socket error: Broken pipe
+2017-09-17 16:47:29.362219 ::ERROR:: [pool0] unpack requires a bytes object of length 4
+2017-09-17 16:47:32.385461 ::INFO:: [joe1] send 3 bytes to server: 127.0.0.1:8888
+2017-09-17 16:47:32.406016 ::INFO:: [joe3] send 3 bytes to server: 127.0.0.1:8890
+2017-09-17 16:54:32.171495 ::INFO:: [deviceManager] connecting to deivce 'joe3' (127.0.0.1:8890)
+2017-09-17 16:54:32.171691 ::INFO:: [deviceManager] connection established to device 'joe3' (127.0.0.1:8890)
+2017-09-17 16:54:32.171774 ::INFO:: [deviceManager] connecting to deivce 'joe2' (127.0.0.1:8889)
+2017-09-17 16:54:32.171868 ::INFO:: [deviceManager] connection established to device 'joe2' (127.0.0.1:8889)
+2017-09-17 16:54:32.171939 ::INFO:: [deviceManager] connecting to deivce 'joe1' (127.0.0.1:8888)
+2017-09-17 16:54:32.172061 ::INFO:: [deviceManager] connection established to device 'joe1' (127.0.0.1:8888)
+2017-09-17 16:54:34.174455 ::INFO:: [joe3] send 6 bytes to server: 127.0.0.1:8890
+2017-09-17 16:54:35.676071 ::INFO:: [joe2] send 6 bytes to server: 127.0.0.1:8889
+2017-09-17 16:54:37.177762 ::INFO:: [joe1] send 6 bytes to server: 127.0.0.1:8888
+2017-09-17 16:54:42.184310 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:54:43.185078 ::INFO:: [joe3] send 6 bytes to server: 127.0.0.1:8890
+2017-09-17 16:54:43.685427 ::INFO:: [joe2] recv 4 bytes from server: 127.0.0.1:8889
+2017-09-17 16:54:44.686792 ::INFO:: [joe2] send 6 bytes to server: 127.0.0.1:8889
+2017-09-17 16:54:45.187345 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:54:46.188683 ::INFO:: [joe1] send 6 bytes to server: 127.0.0.1:8888
+2017-09-17 16:54:51.194441 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:54:52.195772 ::INFO:: [joe3] send 6 bytes to server: 127.0.0.1:8890
+2017-09-17 16:54:52.696143 ::INFO:: [joe2] recv 4 bytes from server: 127.0.0.1:8889
+2017-09-17 16:54:53.697504 ::INFO:: [joe2] send 6 bytes to server: 127.0.0.1:8889
+2017-09-17 16:54:54.197913 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:54:55.199276 ::INFO:: [joe1] send 6 bytes to server: 127.0.0.1:8888
+2017-09-17 16:55:00.204995 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:55:01.206311 ::INFO:: [joe3] send 6 bytes to server: 127.0.0.1:8890
+2017-09-17 16:55:01.706809 ::INFO:: [joe2] recv 4 bytes from server: 127.0.0.1:8889
+2017-09-17 16:55:03.208233 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:55:09.215185 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:55:10.216580 ::INFO:: [joe2] send 3 bytes to server: 127.0.0.1:8889
+2017-09-17 16:55:10.216770 ::INFO:: [joe2] client Closed
+2017-09-17 16:55:10.216987 ::INFO:: [joe3] send 7 bytes to server: 127.0.0.1:8890
+2017-09-17 16:55:11.218220 ::INFO:: [joe1] send 7 bytes to server: 127.0.0.1:8888
+2017-09-17 16:55:15.247635 ::INFO:: [joe1] send 3 bytes to server: 127.0.0.1:8888
+2017-09-17 16:55:15.267974 ::INFO:: [joe3] send 3 bytes to server: 127.0.0.1:8890
+2017-09-17 16:55:20.459044 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:55:20.828582 ::ERROR:: [joe3] in clientSock.send
+2017-09-17 16:55:20.838761 ::ERROR:: [joe3] [errno 32] socket error: Broken pipe
+2017-09-17 16:55:20.853987 ::ERROR:: [pool0] unpack requires a bytes object of length 4
+2017-09-17 16:55:22.527911 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:55:22.543213 ::INFO:: [joe1] client Closed
+2017-09-17 16:57:18.877302 ::INFO:: [deviceManager] connecting to deivce 'joe3' (127.0.0.1:8890)
+2017-09-17 16:57:18.877510 ::INFO:: [deviceManager] connection established to device 'joe3' (127.0.0.1:8890)
+2017-09-17 16:57:18.877604 ::INFO:: [deviceManager] connecting to deivce 'joe2' (127.0.0.1:8889)
+2017-09-17 16:57:18.877737 ::INFO:: [deviceManager] connection established to device 'joe2' (127.0.0.1:8889)
+2017-09-17 16:57:18.877813 ::INFO:: [deviceManager] connecting to deivce 'joe1' (127.0.0.1:8888)
+2017-09-17 16:57:18.877896 ::INFO:: [deviceManager] connection established to device 'joe1' (127.0.0.1:8888)
+2017-09-17 16:57:20.880255 ::INFO:: [joe3] send 6 bytes to server: 127.0.0.1:8890
+2017-09-17 16:57:22.381969 ::INFO:: [joe2] send 6 bytes to server: 127.0.0.1:8889
+2017-09-17 16:57:23.883683 ::INFO:: [joe1] send 6 bytes to server: 127.0.0.1:8888
+2017-09-17 16:57:28.889435 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:57:29.890658 ::INFO:: [joe3] send 6 bytes to server: 127.0.0.1:8890
+2017-09-17 16:57:30.391190 ::INFO:: [joe2] recv 4 bytes from server: 127.0.0.1:8889
+2017-09-17 16:57:31.392495 ::INFO:: [joe2] send 6 bytes to server: 127.0.0.1:8889
+2017-09-17 16:57:31.893272 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:57:32.894563 ::INFO:: [joe1] send 6 bytes to server: 127.0.0.1:8888
+2017-09-17 16:57:37.899733 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:57:38.901078 ::INFO:: [joe3] send 6 bytes to server: 127.0.0.1:8890
+2017-09-17 16:57:39.401118 ::INFO:: [joe2] recv 4 bytes from server: 127.0.0.1:8889
+2017-09-17 16:57:40.402444 ::INFO:: [joe2] send 6 bytes to server: 127.0.0.1:8889
+2017-09-17 16:57:40.903642 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:57:41.904957 ::INFO:: [joe1] send 6 bytes to server: 127.0.0.1:8888
+2017-09-17 16:57:46.910293 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:57:47.911370 ::INFO:: [joe3] send 6 bytes to server: 127.0.0.1:8890
+2017-09-17 16:57:48.411678 ::INFO:: [joe2] recv 4 bytes from server: 127.0.0.1:8889
+2017-09-17 16:57:49.913699 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:57:55.920524 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:57:56.921949 ::INFO:: [joe2] send 3 bytes to server: 127.0.0.1:8889
+2017-09-17 16:57:56.922186 ::INFO:: [joe2] client Closed
+2017-09-17 16:57:56.922496 ::INFO:: [joe3] send 7 bytes to server: 127.0.0.1:8890
+2017-09-17 16:57:57.923752 ::INFO:: [joe1] send 7 bytes to server: 127.0.0.1:8888
+2017-09-17 16:58:06.944105 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:58:06.954461 ::INFO:: [joe3] send 7 bytes to server: 127.0.0.1:8890
+2017-09-17 16:58:07.935070 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:58:07.955641 ::INFO:: [joe1] send 7 bytes to server: 127.0.0.1:8888
+2017-09-17 16:58:17.010894 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:58:17.021250 ::INFO:: [joe3] send 7 bytes to server: 127.0.0.1:8890
+2017-09-17 16:58:18.009798 ::INFO:: [joe1] recv 4 bytes from server: 127.0.0.1:8888
+2017-09-17 16:58:27.073790 ::INFO:: [joe3] recv 4 bytes from server: 127.0.0.1:8890
+2017-09-17 16:58:28.075171 ::INFO:: [joe1] send 3 bytes to server: 127.0.0.1:8888
+2017-09-17 16:58:28.075346 ::INFO:: [joe3] send 3 bytes to server: 127.0.0.1:8890
+2017-09-17 16:58:28.075489 ::INFO:: [joe1] client Closed
+2017-09-17 16:58:28.075595 ::INFO:: [joe3] client Closed
