@@ -2,7 +2,7 @@ from tools.socket.serverSock import serverSock
 
 import sys
 import time
-
+import struct
 
 server = serverSock(name=sys.argv[1])
 server.create(port=int(sys.argv[2]))
@@ -11,18 +11,17 @@ server.waitForClient()
 
 while True:
     print('wait for task')
-    cmd = server.recv().decode('ascii')
-    print('get task \'{0}\''.format(cmd))
-    cmd = cmd.split(' ')
-    if cmd[0] == 'work':
-        for i in range(int(cmd[1])):
-            print('work' + str(i))
-            time.sleep(1)
+    cmd = server.recv()
 
-        print('done!!')
-        server.send('done'.encode('ascii'))
-    if cmd[0] =='bye':
-        server.close()
-        break
+    (a, b) = struct.unpack('ii', cmd)
+    print('get task count {0} to {1}'.format(a, b))
+
+    s = 0
+    for i in range(a, b):
+        s += i
+    
+    msg = struct.pack('i', s)
+
+    server.send(msg)
 
 

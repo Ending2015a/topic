@@ -193,6 +193,12 @@ class deviceManager(object):
             except (OSError, IOError):
                 self.log.Error('device {0} lost connection'.format(self.__device_format(device)))
 
+
+    def closeAllDevices(self, block=True):
+        for name, device in self.devices.items():
+            self.closeDevice(device, block)
+        
+        self.log.Log('all devices has closed')
         
     ###
     #   __wait_for_connections  (private)
